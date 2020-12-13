@@ -131,11 +131,43 @@
     }
 
     #bulbN6 {
-        @include llums(31%, 36%, $primari);
+        @include llums(30%, 36%, $primari);
     }
 
-    #bulb6 {
-        @include llums(65%, 25%, $secundari);
+    #bulbN-2-1 {
+        @include llums(44%, 20%, $secundari);
+    }
+
+    #bulbN-2-2 {
+        @include llums(44%, 28%, $secundari);
+    }
+
+    #bulbN-2-3 {
+        @include llums(44%, 36%, $secundari);
+    }
+
+    #bulbN-2-4 {
+        @include llums(46%, 24%, $secundari);
+    }
+
+    #bulbN-2-4b {
+        @include llums(48%, 28%, $secundari);
+    }
+
+    #bulbN-2-5 {
+        @include llums(50%, 32%, $secundari);
+    }
+
+    #bulbN-2-6 {
+        @include llums(52%, 20%, $secundari);
+    }
+
+    #bulbN-2-7 {
+        @include llums(52%, 28%, $secundari);
+    }
+
+    #bulbN-2-8 {
+        @include llums(52%, 36%, $secundari);
     }
 
     #bulb7 {
