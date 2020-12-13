@@ -62,10 +62,6 @@
         @include llums(90%, 44%, $primari);
     }
 
-    #bulb4 {
-        @include llums(40%, -20%, $secundari);
-    }
-
     #bulbB1 {
         @include llums(6%, 20%, $primari);
     }
@@ -96,6 +92,22 @@
 
     #bulbB6 {
         @include llums(12%, 32%, $primari);
+    }
+
+    #bulbO1 {
+        @include llums(19%, 25%, $secundari);
+    }
+
+    #bulbO2 {
+        @include llums(17%, 31%, $secundari);
+    }
+
+    #bulbO3 {
+        @include llums(19%, 36%, $secundari);
+    }
+
+    #bulbO4 {
+        @include llums(21%, 31%, $secundari);
     }
 
     #bulb6 {
