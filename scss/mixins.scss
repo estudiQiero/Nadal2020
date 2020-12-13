@@ -1,0 +1,5 @@
+@mixin llums($esq, $dre, $color) {
+    left: $esq;
+    top: $dre;
+    background: $color;
+}
