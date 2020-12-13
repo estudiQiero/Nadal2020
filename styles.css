@@ -194,46 +194,111 @@
 .nad-cuerpo #bulbA1 {
   left: 56%;
   top: 36%;
-  background: #fa058c;
+  background: #faea05;
 }
 .nad-cuerpo #bulbA2 {
   left: 59%;
   top: 36%;
-  background: #fa058c;
+  background: #faea05;
 }
 .nad-cuerpo #bulbA3 {
   left: 56%;
   top: 31%;
-  background: #fa058c;
+  background: #faea05;
 }
 .nad-cuerpo #bulbA4 {
   left: 59%;
   top: 31%;
-  background: #fa058c;
+  background: #faea05;
 }
 .nad-cuerpo #bulbA5 {
   left: 56%;
   top: 24%;
-  background: #fa058c;
+  background: #faea05;
 }
 .nad-cuerpo #bulbA6 {
   left: 59%;
   top: 27%;
-  background: #fa058c;
-}
-.nad-cuerpo #bulb7 {
-  left: 60%;
-  top: 75%;
   background: #faea05;
 }
-.nad-cuerpo #bulb8 {
-  left: 48%;
-  top: 104%;
+.nad-cuerpo #bulbA-2-1 {
+  left: 75%;
+  top: 36%;
+  background: #faea05;
+}
+.nad-cuerpo #bulbA-2-2 {
+  left: 78%;
+  top: 36%;
+  background: #faea05;
+}
+.nad-cuerpo #bulbA-2-3 {
+  left: 75%;
+  top: 31%;
+  background: #faea05;
+}
+.nad-cuerpo #bulbA-2-4 {
+  left: 78%;
+  top: 31%;
+  background: #faea05;
+}
+.nad-cuerpo #bulbA-2-5 {
+  left: 75%;
+  top: 24%;
+  background: #faea05;
+}
+.nad-cuerpo #bulbA-2-6 {
+  left: 78%;
+  top: 27%;
+  background: #faea05;
+}
+.nad-cuerpo #bulbD1 {
+  left: 65%;
+  top: 36%;
   background: #fa058c;
 }
-.nad-cuerpo #bulb9 {
-  left: 75%;
-  top: 0;
+.nad-cuerpo #bulbD2 {
+  left: 68%;
+  top: 36%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbD3 {
+  left: 65%;
+  top: 31%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbD4 {
+  left: 68%;
+  top: 31%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbD5 {
+  left: 68%;
+  top: 20%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbD6 {
+  left: 68%;
+  top: 26%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbL1 {
+  left: 87%;
+  top: 20%;
+  background: #faea05;
+}
+.nad-cuerpo #bulbL2 {
+  left: 87%;
+  top: 26%;
+  background: #faea05;
+}
+.nad-cuerpo #bulbL3 {
+  left: 87%;
+  top: 31%;
+  background: #faea05;
+}
+.nad-cuerpo #bulbL4 {
+  left: 87%;
+  top: 36%;
   background: #faea05;
 }
 .nad-cuerpo .nad-contSwitch {

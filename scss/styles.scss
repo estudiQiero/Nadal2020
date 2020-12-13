@@ -171,39 +171,91 @@
     }
 
     #bulbA1 {
-        @include llums(56%, 36%, $secundari);
+        @include llums(56%, 36%, $primari);
     }
 
     #bulbA2 {
-        @include llums(59%, 36%, $secundari);
+        @include llums(59%, 36%, $primari);
     }
 
     #bulbA3 {
-        @include llums(56%, 31%, $secundari);
+        @include llums(56%, 31%, $primari);
     }
 
     #bulbA4 {
-        @include llums(59%, 31%, $secundari);
+        @include llums(59%, 31%, $primari);
     }
 
     #bulbA5 {
-        @include llums(56%, 24%, $secundari);
+        @include llums(56%, 24%, $primari);
     }
 
     #bulbA6 {
-        @include llums(59%, 27%, $secundari);
+        @include llums(59%, 27%, $primari);
     }
 
-    #bulb7 {
-        @include llums(60%, 75%, $primari);
+    #bulbA-2-1 {
+        @include llums(75%, 36%, $primari);
     }
 
-    #bulb8 {
-        @include llums(48%, 104%, $secundari);
+    #bulbA-2-2 {
+        @include llums(78%, 36%, $primari);
     }
 
-    #bulb9 {
-        @include llums(75%, 0, $primari);
+    #bulbA-2-3 {
+        @include llums(75%, 31%, $primari);
+    }
+
+    #bulbA-2-4 {
+        @include llums(78%, 31%, $primari);
+    }
+
+    #bulbA-2-5 {
+        @include llums(75%, 24%, $primari);
+    }
+
+    #bulbA-2-6 {
+        @include llums(78%, 27%, $primari);
+    }
+
+    #bulbD1 {
+        @include llums(65%, 36%, $secundari);
+    }
+
+    #bulbD2 {
+        @include llums(68%, 36%, $secundari);
+    }
+
+    #bulbD3 {
+        @include llums(65%, 31%, $secundari);
+    }
+
+    #bulbD4 {
+        @include llums(68%, 31%, $secundari);
+    }
+
+    #bulbD5 {
+        @include llums(68%, 20%, $secundari);
+    }
+
+    #bulbD6 {
+        @include llums(68%, 26%, $secundari);
+    }
+
+    #bulbL1 {
+        @include llums(87%, 20%, $primari);
+    }
+
+    #bulbL2 {
+        @include llums(87%, 26%, $primari);
+    }
+
+    #bulbL3 {
+        @include llums(87%, 31%, $primari);
+    }
+
+    #bulbL4 {
+        @include llums(87%, 36%, $primari);
     }
 
     .nad-contSwitch {
