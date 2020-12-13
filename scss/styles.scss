@@ -175,7 +175,7 @@
     }
 
     #bulbA2 {
-        @include llums(59%, 36%, $primari);
+        @include llums(61%, 36%, $primari);
     }
 
     #bulbA3 {
@@ -183,15 +183,15 @@
     }
 
     #bulbA4 {
-        @include llums(59%, 31%, $primari);
+        @include llums(61%, 31%, $primari);
     }
 
     #bulbA5 {
-        @include llums(56%, 24%, $primari);
+        @include llums(58%, 24%, $primari);
     }
 
     #bulbA6 {
-        @include llums(59%, 27%, $primari);
+        @include llums(61%, 27%, $primari);
     }
 
     #bulbA-2-1 {
@@ -243,19 +243,19 @@
     }
 
     #bulbL1 {
-        @include llums(87%, 20%, $primari);
+        @include llums(87%, 20%, $secundari);
     }
 
     #bulbL2 {
-        @include llums(87%, 26%, $primari);
+        @include llums(87%, 26%, $secundari);
     }
 
     #bulbL3 {
-        @include llums(87%, 31%, $primari);
+        @include llums(87%, 31%, $secundari);
     }
 
     #bulbL4 {
-        @include llums(87%, 36%, $primari);
+        @include llums(87%, 36%, $secundari);
     }
 
     .nad-contSwitch {
