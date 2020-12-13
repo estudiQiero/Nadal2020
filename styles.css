@@ -61,9 +61,44 @@
   top: -20%;
   background: #faea05;
 }
-.nad-cuerpo #bulb5 {
-  left: 25%;
-  top: 10%;
+.nad-cuerpo #bulbB1 {
+  left: 6%;
+  top: 20%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbB1-2 {
+  left: 9%;
+  top: 20%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbB2 {
+  left: 6%;
+  top: 28%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbB3 {
+  left: 6%;
+  top: 36%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbB3-2 {
+  left: 9%;
+  top: 36%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbB4 {
+  left: 12%;
+  top: 24%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbB5 {
+  left: 9%;
+  top: 28%;
+  background: #fa058c;
+}
+.nad-cuerpo #bulbB6 {
+  left: 12%;
+  top: 32%;
   background: #fa058c;
 }
 .nad-cuerpo #bulb6 {

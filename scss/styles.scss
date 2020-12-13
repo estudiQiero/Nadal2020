@@ -4,7 +4,6 @@
 }
 
 // Test de canvis
-
 @import 'colors';
 @import 'mixins';
 
@@ -67,8 +66,36 @@
         @include llums(40%, -20%, $secundari);
     }
 
-    #bulb5 {
-        @include llums(25%, 10%, $primari);
+    #bulbB1 {
+        @include llums(6%, 20%, $primari);
+    }
+
+    #bulbB1-2 {
+        @include llums(9%, 20%, $primari);
+    }
+
+    #bulbB2 {
+        @include llums(6%, 28%, $primari);
+    }
+
+    #bulbB3 {
+        @include llums(6%, 36%, $primari);
+    }
+
+    #bulbB3-2 {
+        @include llums(9%, 36%, $primari);
+    }
+
+    #bulbB4 {
+        @include llums(12%, 24%, $primari);
+    }
+
+    #bulbB5 {
+        @include llums(9%, 28%, $primari);
+    }
+
+    #bulbB6 {
+        @include llums(12%, 32%, $primari);
     }
 
     #bulb6 {
