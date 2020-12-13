@@ -170,6 +170,30 @@
         @include llums(52%, 36%, $secundari);
     }
 
+    #bulbA1 {
+        @include llums(56%, 36%, $secundari);
+    }
+
+    #bulbA2 {
+        @include llums(59%, 36%, $secundari);
+    }
+
+    #bulbA3 {
+        @include llums(56%, 31%, $secundari);
+    }
+
+    #bulbA4 {
+        @include llums(59%, 31%, $secundari);
+    }
+
+    #bulbA5 {
+        @include llums(56%, 24%, $secundari);
+    }
+
+    #bulbA6 {
+        @include llums(59%, 27%, $secundari);
+    }
+
     #bulb7 {
         @include llums(60%, 75%, $primari);
     }
