@@ -6,9 +6,10 @@
 // Test de canvis
 @import 'colors';
 @import 'mixins';
+@import 'animacio';
 
 .nad-cuerpo {
-    background-color: #000000;
+    background-color: #000;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -19,7 +20,7 @@
     flex-direction: column;
 
     h1 {
-        color: #111;
+        color: #000;
 
         // #888;
         text-align: center;
@@ -40,6 +41,31 @@
         -ms-filter: blur(3px);
         filter: blur(3px);
         overflow: hidden;
+
+        &:nth-child(2n+1) {
+            animation-name: flash-1;
+            animation-duration: .5s;
+            animation-iteration-count: infinite;
+        }
+
+        &:nth-child(4n+2) {
+            animation-name: flash1;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+
+        &:nth-child(odd) {
+            animation-name: flash2;
+            animation-iteration-count: infinite;
+            animation-duration: .8s;
+        }
+
+        &:nth-child(3n+1) {
+            animation-name: flash3;
+            animation-iteration-count: infinite;
+            animation-duration: .2s;
+        }
+
 
         .fonsBulb {
             height: 20px;
@@ -461,30 +487,30 @@
     // Botó switch
     .nad-contSwitch {
         width: 10em;
-        height: 5em;
-        background: #111;
+        height: 4em;
+        background: #7d7d7d;
         border-radius: 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        border: 4px solid #5d5d5d;
 
         .nad-switchButton {
-            width: 4em;
-            height: 4em;
-            padding: 1em;
+            width: 3.5em;
+            height: 3.5em;
             box-sizing: border-box;
             background: #fff;
             border-radius: 50px;
-            margin-left: .5em;
-            margin-right: .5em;
+            margin-left: .2em;
+            margin-right: .2em;
         }
 
         .nad-textOn,
         .nad-textOff {
             color: #fff;
             text-align: center;
-            font-size: 2em;
-            width: 60%;
+            font-size: 1.5em;
+            width: 50%;
         }
 
         #textOn {

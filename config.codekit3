@@ -60,6 +60,19 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/scss/animacio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/animacio.css",
+		"oF": 1,
+		"oS": 0,
+		"sct": 0
+		},
 	"/scss/colors.scss": {
 		"aP": 0,
 		"bl": 0,
