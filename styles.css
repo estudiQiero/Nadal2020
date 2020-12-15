@@ -76,33 +76,33 @@
     filter: blur(3px);
     overflow: hidden; }
     .nad-cuerpo .nad-llums:nth-child(2n+1) {
-      -webkit-animation-name: flash-1;
-              animation-name: flash-1;
-      -webkit-animation-duration: .5s;
-              animation-duration: .5s;
-      -webkit-animation-iteration-count: infinite;
-              animation-iteration-count: infinite; }
-    .nad-cuerpo .nad-llums:nth-child(4n+2) {
       -webkit-animation-name: flash1;
               animation-name: flash1;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s;
       -webkit-animation-iteration-count: infinite;
-              animation-iteration-count: infinite; }
-    .nad-cuerpo .nad-llums:nth-child(odd) {
+              animation-iteration-count: infinite;
+      -webkit-animation-duration: 0.3;
+              animation-duration: 0.3; }
+    .nad-cuerpo .nad-llums:nth-child(4n+2) {
       -webkit-animation-name: flash2;
               animation-name: flash2;
       -webkit-animation-iteration-count: infinite;
               animation-iteration-count: infinite;
-      -webkit-animation-duration: .8s;
-              animation-duration: .8s; }
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s; }
+    .nad-cuerpo .nad-llums:nth-child(odd) {
+      -webkit-animation-name: flash1;
+              animation-name: flash1;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-duration: 0.5s;
+              animation-duration: 0.5s; }
     .nad-cuerpo .nad-llums:nth-child(3n+1) {
       -webkit-animation-name: flash3;
               animation-name: flash3;
       -webkit-animation-iteration-count: infinite;
               animation-iteration-count: infinite;
-      -webkit-animation-duration: .2s;
-              animation-duration: .2s; }
+      -webkit-animation-duration: 0.2s;
+              animation-duration: 0.2s; }
     .nad-cuerpo .nad-llums .fonsBulb {
       height: 20px;
       width: 20px;
