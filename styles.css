@@ -541,3 +541,21 @@
       display: block; }
     .nad-cuerpo .nad-contSwitch #textOff {
       display: none; }
+
+.nad-contSwitchImg {
+  width: 13em;
+  height: 6em;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.switch {
+  width: 13em;
+  height: auto; }
+
+#switchOff-Img {
+  position: absolute; }
+
+#switchOn-Img {
+  position: absolute; }

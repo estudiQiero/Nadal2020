@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<div class="nad-cuerpo" id="cuerpo">
-			<h1>Bon Nadal<br><div>
+			<h1>Bon Nadal<br><div data-pg-collapsed>
 					<div class="nad-llums" id="bulbB1" data-pg-collapsed>
 						<div class="fonsBulb"></div>
 					</div>
@@ -293,10 +293,15 @@
 						<div class="fonsBulb"></div>
 					</div>
 				</div>2020</h1>
-			<div class="nad-contSwitch">
+			<div class="nad-contSwitch" data-pg-collapsed data-pg-hidden>
 				<p id="textOn" class="nad-textOn">ON</p>
 				<div class="nad-switchButton"></div>
 				<p id="textOff" class="nad-textOff">OFF</p>
+			</div>
+			<div class="nad-contSwitchImg">
+				<div class="pg-empty-placeholder"></div>
+				<img src="img/switchOff.png" class="switch" id="switchOn-Img"/>
+				<img src="img/switchOff.png" class="switch" id="switchOff-Img"/>
 			</div>
 		</div>
 	</body>

@@ -58,7 +58,6 @@
             @include animacio(flash3, .2s);
         }
 
-
         .fonsBulb {
             height: 20px;
             width: 20px;
@@ -513,4 +512,27 @@
             display: none;
         }
     }
+}
+
+.nad-contSwitchImg {
+    width: 13em;
+    height: 6em;
+    position: relative;
+    display: flex;
+}
+
+#buttonOff {
+}
+
+.switch {
+    width: 13em;
+    height: auto;
+}
+
+#switchOff-Img {
+    position: absolute;
+}
+
+#switchOn-Img {
+    position: absolute;
 }
