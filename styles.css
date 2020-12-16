@@ -83,8 +83,8 @@
       -webkit-animation-duration: 0.3s;
               animation-duration: 0.3s;
       background: #f8ba00;
-      -webkit-box-shadow: 0 0 25px #f8ba00;
-              box-shadow: 0 0 25px #f8ba00; }
+      -webkit-box-shadow: 0 0 20px 2px #f8ba00;
+              box-shadow: 0 0 20px 2px #f8ba00; }
     .nad-cuerpo .nad-llums:nth-child(4n) {
       -webkit-animation-name: flash2;
               animation-name: flash2;
@@ -93,8 +93,8 @@
       -webkit-animation-duration: 1s;
               animation-duration: 1s;
       background: #04f800;
-      -webkit-box-shadow: 0 0 25px #04f800;
-              box-shadow: 0 0 25px #04f800; }
+      -webkit-box-shadow: 0 0 20px 2px #04f800;
+              box-shadow: 0 0 20px 2px #04f800; }
     .nad-cuerpo .nad-llums:nth-child(odd) {
       -webkit-animation-name: flash1;
               animation-name: flash1;
@@ -103,8 +103,8 @@
       -webkit-animation-duration: 0.5s;
               animation-duration: 0.5s;
       background: #001eff;
-      -webkit-box-shadow: 0 0 25px #001eff;
-              box-shadow: 0 0 25px #001eff; }
+      -webkit-box-shadow: 0 0 20px 2px #001eff;
+              box-shadow: 0 0 20px 2px #001eff; }
     .nad-cuerpo .nad-llums:nth-child(3n+1) {
       -webkit-animation-name: flash3;
               animation-name: flash3;
@@ -113,8 +113,8 @@
       -webkit-animation-duration: 0.7s;
               animation-duration: 0.7s;
       background: rgba(237, 20, 20, 0.867);
-      -webkit-box-shadow: 0 0 25px rgba(237, 20, 20, 0.867);
-              box-shadow: 0 0 25px rgba(237, 20, 20, 0.867); }
+      -webkit-box-shadow: 0 0 20px 2px rgba(237, 20, 20, 0.867);
+              box-shadow: 0 0 20px 2px rgba(237, 20, 20, 0.867); }
     .nad-cuerpo .nad-llums .fonsBulb {
       height: 20px;
       width: 20px;
