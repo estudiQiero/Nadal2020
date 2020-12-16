@@ -17,6 +17,32 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
+	"/img/swicthOff.png": {
+		"ft": 32768,
+		"iS": 14519,
+		"oA": 0,
+		"oAP": "/img/swicthOff.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/SwitchOn.png": {
+		"ft": 32768,
+		"iS": 8788,
+		"oA": 0,
+		"oAP": "/img/SwitchOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -69,7 +95,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/colors.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
@@ -82,7 +108,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/mixins.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
@@ -94,8 +120,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/styles.css",
-		"oF": 3,
+		"oAP": "/scss/styles.css",
+		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
