@@ -9,7 +9,7 @@
 @import 'animacio';
 
 .nad-cuerpo {
-    background-color: #fff;
+    background-color: #000;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -35,444 +35,444 @@
         height: 20px;
         position: absolute;
         border-radius: 50px;
-        -webkit-filter: blur(3px);
-        -moz-filter: blur(3px);
-        -o-filter: blur(3px);
-        -ms-filter: blur(3px);
-        filter: blur(3px);
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        -o-filter: blur(2px);
+        -ms-filter: blur(2px);
+        filter: blur(2px);
         overflow: hidden;
 
-        &:nth-child(2n+1) {
-            @include animacio(flash1, .3);
+        &:nth-child(even) {
+            @include animacio(flash1, .3s, $tercer, $tercer);
         }
 
-        &:nth-child(4n+2) {
-            @include animacio(flash2, 1s);
+        &:nth-child(4n) {
+            @include animacio(flash2, 1s, $quart, $quart);
         }
 
         &:nth-child(odd) {
-            @include animacio(flash1, .5s);
+            @include animacio(flash1, .5s, $secundari, $secundari);
         }
 
         &:nth-child(3n+1) {
-            @include animacio(flash3, .2s);
+            @include animacio(flash3, .7s, $primari, $primari);
         }
 
         .fonsBulb {
             height: 20px;
             width: 20px;
-            mix-blend-mode: screen;
-            background: radial-gradient(circle, rgba(255, 255, 255, 1) 15%, rgb(143, 143, 143) 35%, rgb(0, 0, 0) 100%);
+            mix-blend-mode: luminosity;
+            background: radial-gradient(circle, #d4d4d4 15%, rgb(143, 143, 143) 35%, rgb(0, 0, 0) 100%);
             bottom: 80%;
         }
     }
 
     // Bombeta B
     #bulb1 {
-        @include llums(35%, 60%, $primari);
+        @include llums(35%, 60%);
     }
 
     #bulb2 {
-        @include llums(20%, 50%, $secundari);
+        @include llums(20%, 50%);
     }
 
     #bulb3 {
-        @include llums(90%, 44%, $primari);
+        @include llums(90%, 44%);
     }
 
     #bulbB1 {
-        @include llums(6%, 20%, $primari);
+        @include llums(6%, 20%);
     }
 
     #bulbB1-2 {
-        @include llums(9%, 20%, $primari);
+        @include llums(9%, 20%);
     }
 
     #bulbB2 {
-        @include llums(6%, 28%, $primari);
+        @include llums(6%, 28%);
     }
 
     #bulbB3 {
-        @include llums(6%, 36%, $primari);
+        @include llums(6%, 36%);
     }
 
     #bulbB3-2 {
-        @include llums(9%, 36%, $primari);
+        @include llums(9%, 36%);
     }
 
     #bulbB4 {
-        @include llums(12%, 24%, $primari);
+        @include llums(12%, 24%);
     }
 
     #bulbB5 {
-        @include llums(9%, 28%, $primari);
+        @include llums(9%, 28%);
     }
 
     #bulbB6 {
-        @include llums(12%, 32%, $primari);
+        @include llums(12%, 32%);
     }
 
     // Bombeta o
     #bulbO1 {
-        @include llums(19%, 26%, $secundari);
+        @include llums(19%, 26%);
     }
 
     #bulbO2 {
-        @include llums(17%, 31%, $secundari);
+        @include llums(17%, 31%);
     }
 
     #bulbO3 {
-        @include llums(19%, 36%, $secundari);
+        @include llums(19%, 36%);
     }
 
     #bulbO4 {
-        @include llums(21%, 31%, $secundari);
+        @include llums(21%, 31%);
     }
 
     #bulbN1 {
-        @include llums(25%, 26%, $primari);
+        @include llums(25%, 26%);
     }
 
     // Bombeta n
     #bulbN2 {
-        @include llums(25%, 31%, $primari);
+        @include llums(25%, 31%);
     }
 
     #bulbN3 {
-        @include llums(25%, 36%, $primari);
+        @include llums(25%, 36%);
     }
 
     #bulbN4 {
-        @include llums(28%, 26%, $primari);
+        @include llums(28%, 26%);
     }
 
     #bulbN5 {
-        @include llums(30%, 31%, $primari);
+        @include llums(30%, 31%);
     }
 
     #bulbN6 {
-        @include llums(30%, 36%, $primari);
+        @include llums(30%, 36%);
     }
 
     // Bombeta N
     #bulbN-2-1 {
-        @include llums(44%, 20%, $secundari);
+        @include llums(44%, 20%);
     }
 
     #bulbN-2-2 {
-        @include llums(44%, 28%, $secundari);
+        @include llums(44%, 28%);
     }
 
     #bulbN-2-3 {
-        @include llums(44%, 36%, $secundari);
+        @include llums(44%, 36%);
     }
 
     #bulbN-2-4 {
-        @include llums(46%, 24%, $secundari);
+        @include llums(46%, 24%);
     }
 
     #bulbN-2-4b {
-        @include llums(48%, 28%, $secundari);
+        @include llums(48%, 28%);
     }
 
     #bulbN-2-5 {
-        @include llums(50%, 32%, $secundari);
+        @include llums(50%, 32%);
     }
 
     #bulbN-2-6 {
-        @include llums(52%, 20%, $secundari);
+        @include llums(52%, 20%);
     }
 
     #bulbN-2-7 {
-        @include llums(52%, 28%, $secundari);
+        @include llums(52%, 28%);
     }
 
     #bulbN-2-8 {
-        @include llums(52%, 36%, $secundari);
+        @include llums(52%, 36%);
     }
 
     // Bombeta a
     #bulbA1 {
-        @include llums(56%, 36%, $primari);
+        @include llums(56%, 36%);
     }
 
     #bulbA2 {
-        @include llums(62%, 36%, $primari);
+        @include llums(62%, 36%);
     }
 
     #bulbA3 {
-        @include llums(57%, 31%, $primari);
+        @include llums(57%, 31%);
     }
 
     #bulbA4 {
-        @include llums(61%, 31%, $primari);
+        @include llums(61%, 31%);
     }
 
     #bulbA5 {
-        @include llums(59%, 27%, $primari);
+        @include llums(59%, 27%);
     }
 
     #bulbA6 {
-        @include llums(62%, 27%, $primari);
+        @include llums(62%, 27%);
     }
 
     // Bombeta a 2
     #bulbA-2-1 {
-        @include llums(74%, 36%, $primari);
+        @include llums(74%, 36%);
     }
 
     #bulbA-2-2 {
-        @include llums(80%, 36%, $primari);
+        @include llums(80%, 36%);
     }
 
     #bulbA-2-3 {
-        @include llums(75%, 31%, $primari);
+        @include llums(75%, 31%);
     }
 
     #bulbA-2-4 {
-        @include llums(79%, 31%, $primari);
+        @include llums(79%, 31%);
     }
 
     #bulbA-2-5 {
-        @include llums(76%, 24%, $primari);
+        @include llums(76%, 24%);
     }
 
     #bulbA-2-6 {
-        @include llums(77%, 27%, $primari);
+        @include llums(77%, 27%);
     }
 
     // Bombeta d
     #bulbD1 {
-        @include llums(67%, 36%, $secundari);
+        @include llums(67%, 36%);
     }
 
     #bulbD2 {
-        @include llums(70%, 36%, $secundari);
+        @include llums(70%, 36%);
     }
 
     #bulbD3 {
-        @include llums(66%, 31%, $secundari);
+        @include llums(66%, 31%);
     }
 
     #bulbD4 {
-        @include llums(70%, 31%, $secundari);
+        @include llums(70%, 31%);
     }
 
     #bulbD5 {
-        @include llums(67%, 26%, $secundari);
+        @include llums(67%, 26%);
     }
 
     #bulbD6 {
-        @include llums(70%, 26%, $secundari);
+        @include llums(70%, 26%);
     }
 
     #bulbD7 {
-        @include llums(70%, 22%, $secundari);
+        @include llums(70%, 22%);
     }
 
     #bulbD8 {
-        @include llums(70%, 18%, $secundari);
+        @include llums(70%, 18%);
     }
 
     #bulbL0 {
-        @include llums(84%, 20%, $secundari);
+        @include llums(84%, 20%);
     }
 
     // Bombeta l
     #bulbL1 {
-        @include llums(86%, 20%, $secundari);
+        @include llums(86%, 20%);
     }
 
     #bulbL2 {
-        @include llums(86%, 26%, $secundari);
+        @include llums(86%, 26%);
     }
 
     #bulbL3 {
-        @include llums(86%, 31%, $secundari);
+        @include llums(86%, 31%);
     }
 
     #bulbL4 {
-        @include llums(86%, 36%, $secundari);
+        @include llums(86%, 36%);
     }
 
     // Bombeta 2 1
     #bulb2-1-1 {
-        @include llums(30%, 58%, $secundari);
+        @include llums(30%, 58%);
     }
 
     #bulb2-1-2 {
-        @include llums(32%, 56%, $secundari);
+        @include llums(32%, 56%);
     }
 
     #bulb2-1-3 {
-        @include llums(34%, 56%, $secundari);
+        @include llums(34%, 56%);
     }
 
     #bulb2-1-4 {
-        @include llums(36%, 58%, $secundari);
+        @include llums(36%, 58%);
     }
 
     #bulb2-1-5 {
-        @include llums(36%, 63%, $secundari);
+        @include llums(36%, 63%);
     }
 
     #bulb2-1-6 {
-        @include llums(34%, 67%, $secundari);
+        @include llums(34%, 67%);
     }
 
     #bulb2-1-7 {
-        @include llums(32%, 70%, $secundari);
+        @include llums(32%, 70%);
     }
 
     #bulb2-1-8 {
-        @include llums(30%, 75%, $secundari);
+        @include llums(30%, 75%);
     }
 
     #bulb2-1-9 {
-        @include llums(32%, 75%, $secundari);
+        @include llums(32%, 75%);
     }
 
     #bulb2-1-10 {
-        @include llums(34%, 75%, $secundari);
+        @include llums(34%, 75%);
     }
 
     #bulb2-1-11 {
-        @include llums(36%, 75%, $secundari);
+        @include llums(36%, 75%);
     }
 
     // Bombeta 0-1
     #bulb0-1-1 {
-        @include llums(42%, 56%, $primari);
+        @include llums(42%, 56%);
     }
 
     #bulb0-1-2 {
-        @include llums(40%, 60%, $primari);
+        @include llums(40%, 60%);
     }
 
     #bulb0-1-3 {
-        @include llums(40%, 65%, $primari);
+        @include llums(40%, 65%);
     }
 
     #bulb0-1-4 {
-        @include llums(40%, 70%, $primari);
+        @include llums(40%, 70%);
     }
 
     #bulb0-1-5 {
-        @include llums(44%, 75%, $primari);
+        @include llums(44%, 75%);
     }
 
     #bulb0-1-6 {
-        @include llums(46%, 60%, $primari);
+        @include llums(46%, 60%);
     }
 
     #bulb0-1-7 {
-        @include llums(46%, 65%, $primari);
+        @include llums(46%, 65%);
     }
 
     #bulb0-1-8 {
-        @include llums(46%, 70%, $primari);
+        @include llums(46%, 70%);
     }
 
     #bulb0-1-9 {
-        @include llums(42%, 75%, $primari);
+        @include llums(42%, 75%);
     }
 
     #bulb0-1-10 {
-        @include llums(44%, 56%, $primari);
+        @include llums(44%, 56%);
     }
 
     #bulb0-1-11 {
-        @include llums(43%, 65%, $primari);
+        @include llums(43%, 65%);
     }
 
     // Bombeta 2 2
     #bulb2-2-1 {
-        @include llums(50%, 58%, $secundari);
+        @include llums(50%, 58%);
     }
 
     #bulb2-2-2 {
-        @include llums(52%, 56%, $secundari);
+        @include llums(52%, 56%);
     }
 
     #bulb2-2-3 {
-        @include llums(54%, 56%, $secundari);
+        @include llums(54%, 56%);
     }
 
     #bulb2-2-4 {
-        @include llums(56%, 58%, $secundari);
+        @include llums(56%, 58%);
     }
 
     #bulb2-2-5 {
-        @include llums(56%, 63%, $secundari);
+        @include llums(56%, 63%);
     }
 
     #bulb2-2-6 {
-        @include llums(54%, 67%, $secundari);
+        @include llums(54%, 67%);
     }
 
     #bulb2-2-7 {
-        @include llums(52%, 70%, $secundari);
+        @include llums(52%, 70%);
     }
 
     #bulb2-2-8 {
-        @include llums(50%, 75%, $secundari);
+        @include llums(50%, 75%);
     }
 
     #bulb2-2-9 {
-        @include llums(52%, 75%, $secundari);
+        @include llums(52%, 75%);
     }
 
     #bulb2-2-10 {
-        @include llums(54%, 75%, $secundari);
+        @include llums(54%, 75%);
     }
 
     #bulb2-2-11 {
-        @include llums(56%, 75%, $secundari);
+        @include llums(56%, 75%);
     }
 
     // Bombeta 0-2
     #bulb0-2-1 {
-        @include llums(62%, 56%, $primari);
+        @include llums(62%, 56%);
     }
 
     #bulb0-2-2 {
-        @include llums(60%, 60%, $primari);
+        @include llums(60%, 60%);
     }
 
     #bulb0-2-3 {
-        @include llums(60%, 65%, $primari);
+        @include llums(60%, 65%);
     }
 
     #bulb0-2-4 {
-        @include llums(60%, 70%, $primari);
+        @include llums(60%, 70%);
     }
 
     #bulb0-2-5 {
-        @include llums(64%, 75%, $primari);
+        @include llums(64%, 75%);
     }
 
     #bulb0-2-6 {
-        @include llums(66%, 60%, $primari);
+        @include llums(66%, 60%);
     }
 
     #bulb0-2-7 {
-        @include llums(66%, 65%, $primari);
+        @include llums(66%, 65%);
     }
 
     #bulb0-2-8 {
-        @include llums(66%, 70%, $primari);
+        @include llums(66%, 70%);
     }
 
     #bulb0-2-9 {
-        @include llums(62%, 75%, $primari);
+        @include llums(62%, 75%);
     }
 
     #bulb0-2-10 {
-        @include llums(64%, 56%, $primari);
+        @include llums(64%, 56%);
     }
 
     #bulb0-2-11 {
-        @include llums(63%, 65%, $primari);
+        @include llums(63%, 65%);
     }
 
     // Botó switch
@@ -530,7 +530,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: url('../img/switchOn.svg');
+    background-image: url('../img/SwitchOff.svg');
 }
 
 #switchOff-Img {

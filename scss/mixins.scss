@@ -1,13 +1,15 @@
 // Posició de cada una de les llums
-@mixin llums($esq, $dre, $color) {
+@mixin llums($esq, $dre) {
     left: $esq;
     top: $dre;
-    background: $color;
+    // background: $color;
 }
 
 // Animació de les llums
-@mixin animacio($nomFlash, $durada) {
+@mixin animacio($nomFlash, $durada, $color, $color2) {
     animation-name: $nomFlash;
     animation-iteration-count: infinite;
     animation-duration: $durada; // 1s, .9s, .8s, .7s, etc.
+    background: $color;
+    box-shadow: 0 0 25px $color2;
 }
