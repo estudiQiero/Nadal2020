@@ -39,7 +39,7 @@
     opacity: .3; } }
 
 .nad-cuerpo {
-  background-color: #000;
+  background-color: #FFF;
   width: 100vw;
   height: 100vh;
   display: -webkit-box;
@@ -58,12 +58,14 @@
       -ms-flex-direction: column;
           flex-direction: column; }
   .nad-cuerpo h1 {
-    color: #000;
+    color: #888;
     text-align: center;
     font-size: 9em;
     margin-bottom: .6em;
     padding: .3em;
     position: relative; }
+    .nad-cuerpo h1 #lletresDeLlum {
+      display: none; }
   .nad-cuerpo .nad-llums {
     width: 20px;
     height: 20px;
@@ -454,25 +456,19 @@
       display: block; }
     .nad-cuerpo .nad-contSwitch #textOff {
       display: none; }
-
-.nad-contSwitchImg {
-  width: 13em;
-  height: 6em;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.switch {
-  width: 13em;
-  height: 6em;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url("../img/SwitchOff.svg"); }
-
-#switchOff-Img {
-  position: absolute; }
-
-#switchOn-Img {
-  position: absolute; }
+  .nad-cuerpo .nad-contSwitchImg {
+    cursor: pointer;
+    width: 13em;
+    height: 6em;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../img/SwitchOn.svg"); }
+    .nad-cuerpo .nad-contSwitchImg #aLesFosques,
+    .nad-cuerpo .nad-contSwitchImg #aLesClares {
+      width: 50%;
+      height: 100%; }
