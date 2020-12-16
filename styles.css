@@ -1,474 +1,520 @@
 * {
   margin: 0;
-  padding: 0; }
-
-@-webkit-keyframes flash1 {
-  0%, 100% {
-    opacity: 1; }
-  50% {
-    opacity: .4; } }
+  padding: 0;
+}
 
 @keyframes flash1 {
   0%, 100% {
-    opacity: 1; }
+    opacity: 1;
+  }
   50% {
-    opacity: .4; } }
-
-@-webkit-keyframes flash2 {
-  0%, 100% {
-    opacity: 1; }
-  50% {
-    opacity: .2; } }
-
+    opacity: 0.4;
+  }
+}
 @keyframes flash2 {
   0%, 100% {
-    opacity: 1; }
+    opacity: 1;
+  }
   50% {
-    opacity: .2; } }
-
-@-webkit-keyframes flash3 {
-  0%, 100% {
-    opacity: 1; }
-  50% {
-    opacity: .3; } }
-
+    opacity: 0.6;
+  }
+}
 @keyframes flash3 {
   0%, 100% {
-    opacity: 1; }
+    opacity: 1;
+  }
   50% {
-    opacity: .3; } }
-
+    opacity: 0.5;
+  }
+}
 .nad-cuerpo {
-  background-color: #FFF;
+  background-color: #fff;
   width: 100vw;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: 'Anonymous Pro', monospace;
+  align-items: center;
+  justify-content: center;
+  font-family: "Anonymous Pro", monospace;
   font-weight: 700;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-  .nad-cuerpo h1 {
-    color: #888;
-    text-align: center;
-    font-size: 9em;
-    margin-bottom: .6em;
-    padding: .3em;
-    position: relative; }
-    .nad-cuerpo h1 #lletresDeLlum {
-      display: none; }
-  .nad-cuerpo .nad-llums {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    border-radius: 50px;
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
-    overflow: hidden; }
-    .nad-cuerpo .nad-llums:nth-child(even) {
-      -webkit-animation-name: flash1;
-              animation-name: flash1;
-      -webkit-animation-iteration-count: infinite;
-              animation-iteration-count: infinite;
-      -webkit-animation-duration: 0.3s;
-              animation-duration: 0.3s;
-      background: #f8ba00;
-      -webkit-box-shadow: 0 0 20px 2px #f8ba00;
-              box-shadow: 0 0 20px 2px #f8ba00; }
-    .nad-cuerpo .nad-llums:nth-child(4n) {
-      -webkit-animation-name: flash2;
-              animation-name: flash2;
-      -webkit-animation-iteration-count: infinite;
-              animation-iteration-count: infinite;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s;
-      background: #04f800;
-      -webkit-box-shadow: 0 0 20px 2px #04f800;
-              box-shadow: 0 0 20px 2px #04f800; }
-    .nad-cuerpo .nad-llums:nth-child(odd) {
-      -webkit-animation-name: flash1;
-              animation-name: flash1;
-      -webkit-animation-iteration-count: infinite;
-              animation-iteration-count: infinite;
-      -webkit-animation-duration: 0.5s;
-              animation-duration: 0.5s;
-      background: #001eff;
-      -webkit-box-shadow: 0 0 20px 2px #001eff;
-              box-shadow: 0 0 20px 2px #001eff; }
-    .nad-cuerpo .nad-llums:nth-child(3n+1) {
-      -webkit-animation-name: flash3;
-              animation-name: flash3;
-      -webkit-animation-iteration-count: infinite;
-              animation-iteration-count: infinite;
-      -webkit-animation-duration: 0.7s;
-              animation-duration: 0.7s;
-      background: rgba(237, 20, 20, 0.867);
-      -webkit-box-shadow: 0 0 20px 2px rgba(237, 20, 20, 0.867);
-              box-shadow: 0 0 20px 2px rgba(237, 20, 20, 0.867); }
-    .nad-cuerpo .nad-llums .fonsBulb {
-      height: 20px;
-      width: 20px;
-      mix-blend-mode: luminosity;
-      background: -webkit-radial-gradient(circle, #d4d4d4 15%, #8f8f8f 35%, black 100%);
-      background: -o-radial-gradient(circle, #d4d4d4 15%, #8f8f8f 35%, black 100%);
-      background: radial-gradient(circle, #d4d4d4 15%, #8f8f8f 35%, black 100%);
-      bottom: 80%; }
-  .nad-cuerpo #bulb1 {
-    left: 35%;
-    top: 60%; }
-  .nad-cuerpo #bulb2 {
-    left: 20%;
-    top: 50%; }
-  .nad-cuerpo #bulb3 {
-    left: 90%;
-    top: 44%; }
-  .nad-cuerpo #bulbB1 {
-    left: 6%;
-    top: 20%; }
-  .nad-cuerpo #bulbB1-2 {
-    left: 9%;
-    top: 20%; }
-  .nad-cuerpo #bulbB2 {
-    left: 6%;
-    top: 28%; }
-  .nad-cuerpo #bulbB3 {
-    left: 6%;
-    top: 36%; }
-  .nad-cuerpo #bulbB3-2 {
-    left: 9%;
-    top: 36%; }
-  .nad-cuerpo #bulbB4 {
-    left: 12%;
-    top: 24%; }
-  .nad-cuerpo #bulbB5 {
-    left: 9%;
-    top: 28%; }
-  .nad-cuerpo #bulbB6 {
-    left: 12%;
-    top: 32%; }
-  .nad-cuerpo #bulbO1 {
-    left: 19%;
-    top: 26%; }
-  .nad-cuerpo #bulbO2 {
-    left: 17%;
-    top: 31%; }
-  .nad-cuerpo #bulbO3 {
-    left: 19%;
-    top: 36%; }
-  .nad-cuerpo #bulbO4 {
-    left: 21%;
-    top: 31%; }
-  .nad-cuerpo #bulbN1 {
-    left: 25%;
-    top: 26%; }
-  .nad-cuerpo #bulbN2 {
-    left: 25%;
-    top: 31%; }
-  .nad-cuerpo #bulbN3 {
-    left: 25%;
-    top: 36%; }
-  .nad-cuerpo #bulbN4 {
-    left: 28%;
-    top: 26%; }
-  .nad-cuerpo #bulbN5 {
-    left: 30%;
-    top: 31%; }
-  .nad-cuerpo #bulbN6 {
-    left: 30%;
-    top: 36%; }
-  .nad-cuerpo #bulbN-2-1 {
-    left: 44%;
-    top: 20%; }
-  .nad-cuerpo #bulbN-2-2 {
-    left: 44%;
-    top: 28%; }
-  .nad-cuerpo #bulbN-2-3 {
-    left: 44%;
-    top: 36%; }
-  .nad-cuerpo #bulbN-2-4 {
-    left: 46%;
-    top: 24%; }
-  .nad-cuerpo #bulbN-2-4b {
-    left: 48%;
-    top: 28%; }
-  .nad-cuerpo #bulbN-2-5 {
-    left: 50%;
-    top: 32%; }
-  .nad-cuerpo #bulbN-2-6 {
-    left: 52%;
-    top: 20%; }
-  .nad-cuerpo #bulbN-2-7 {
-    left: 52%;
-    top: 28%; }
-  .nad-cuerpo #bulbN-2-8 {
-    left: 52%;
-    top: 36%; }
-  .nad-cuerpo #bulbA1 {
-    left: 56%;
-    top: 36%; }
-  .nad-cuerpo #bulbA2 {
-    left: 62%;
-    top: 36%; }
-  .nad-cuerpo #bulbA3 {
-    left: 57%;
-    top: 31%; }
-  .nad-cuerpo #bulbA4 {
-    left: 61%;
-    top: 31%; }
-  .nad-cuerpo #bulbA5 {
-    left: 59%;
-    top: 27%; }
-  .nad-cuerpo #bulbA6 {
-    left: 62%;
-    top: 27%; }
-  .nad-cuerpo #bulbA-2-1 {
-    left: 74%;
-    top: 36%; }
-  .nad-cuerpo #bulbA-2-2 {
-    left: 80%;
-    top: 36%; }
-  .nad-cuerpo #bulbA-2-3 {
-    left: 75%;
-    top: 31%; }
-  .nad-cuerpo #bulbA-2-4 {
-    left: 79%;
-    top: 31%; }
-  .nad-cuerpo #bulbA-2-5 {
-    left: 76%;
-    top: 24%; }
-  .nad-cuerpo #bulbA-2-6 {
-    left: 77%;
-    top: 27%; }
-  .nad-cuerpo #bulbD1 {
-    left: 67%;
-    top: 36%; }
-  .nad-cuerpo #bulbD2 {
-    left: 70%;
-    top: 36%; }
-  .nad-cuerpo #bulbD3 {
-    left: 66%;
-    top: 31%; }
-  .nad-cuerpo #bulbD4 {
-    left: 70%;
-    top: 31%; }
-  .nad-cuerpo #bulbD5 {
-    left: 67%;
-    top: 26%; }
-  .nad-cuerpo #bulbD6 {
-    left: 70%;
-    top: 26%; }
-  .nad-cuerpo #bulbD7 {
-    left: 70%;
-    top: 22%; }
-  .nad-cuerpo #bulbD8 {
-    left: 70%;
-    top: 18%; }
-  .nad-cuerpo #bulbL0 {
-    left: 84%;
-    top: 20%; }
-  .nad-cuerpo #bulbL1 {
-    left: 86%;
-    top: 20%; }
-  .nad-cuerpo #bulbL2 {
-    left: 86%;
-    top: 26%; }
-  .nad-cuerpo #bulbL3 {
-    left: 86%;
-    top: 31%; }
-  .nad-cuerpo #bulbL4 {
-    left: 86%;
-    top: 36%; }
-  .nad-cuerpo #bulb2-1-1 {
-    left: 30%;
-    top: 58%; }
-  .nad-cuerpo #bulb2-1-2 {
-    left: 32%;
-    top: 56%; }
-  .nad-cuerpo #bulb2-1-3 {
-    left: 34%;
-    top: 56%; }
-  .nad-cuerpo #bulb2-1-4 {
-    left: 36%;
-    top: 58%; }
-  .nad-cuerpo #bulb2-1-5 {
-    left: 36%;
-    top: 63%; }
-  .nad-cuerpo #bulb2-1-6 {
-    left: 34%;
-    top: 67%; }
-  .nad-cuerpo #bulb2-1-7 {
-    left: 32%;
-    top: 70%; }
-  .nad-cuerpo #bulb2-1-8 {
-    left: 30%;
-    top: 75%; }
-  .nad-cuerpo #bulb2-1-9 {
-    left: 32%;
-    top: 75%; }
-  .nad-cuerpo #bulb2-1-10 {
-    left: 34%;
-    top: 75%; }
-  .nad-cuerpo #bulb2-1-11 {
-    left: 36%;
-    top: 75%; }
-  .nad-cuerpo #bulb0-1-1 {
-    left: 42%;
-    top: 56%; }
-  .nad-cuerpo #bulb0-1-2 {
-    left: 40%;
-    top: 60%; }
-  .nad-cuerpo #bulb0-1-3 {
-    left: 40%;
-    top: 65%; }
-  .nad-cuerpo #bulb0-1-4 {
-    left: 40%;
-    top: 70%; }
-  .nad-cuerpo #bulb0-1-5 {
-    left: 44%;
-    top: 75%; }
-  .nad-cuerpo #bulb0-1-6 {
-    left: 46%;
-    top: 60%; }
-  .nad-cuerpo #bulb0-1-7 {
-    left: 46%;
-    top: 65%; }
-  .nad-cuerpo #bulb0-1-8 {
-    left: 46%;
-    top: 70%; }
-  .nad-cuerpo #bulb0-1-9 {
-    left: 42%;
-    top: 75%; }
-  .nad-cuerpo #bulb0-1-10 {
-    left: 44%;
-    top: 56%; }
-  .nad-cuerpo #bulb0-1-11 {
-    left: 43%;
-    top: 65%; }
-  .nad-cuerpo #bulb2-2-1 {
-    left: 50%;
-    top: 58%; }
-  .nad-cuerpo #bulb2-2-2 {
-    left: 52%;
-    top: 56%; }
-  .nad-cuerpo #bulb2-2-3 {
-    left: 54%;
-    top: 56%; }
-  .nad-cuerpo #bulb2-2-4 {
-    left: 56%;
-    top: 58%; }
-  .nad-cuerpo #bulb2-2-5 {
-    left: 56%;
-    top: 63%; }
-  .nad-cuerpo #bulb2-2-6 {
-    left: 54%;
-    top: 67%; }
-  .nad-cuerpo #bulb2-2-7 {
-    left: 52%;
-    top: 70%; }
-  .nad-cuerpo #bulb2-2-8 {
-    left: 50%;
-    top: 75%; }
-  .nad-cuerpo #bulb2-2-9 {
-    left: 52%;
-    top: 75%; }
-  .nad-cuerpo #bulb2-2-10 {
-    left: 54%;
-    top: 75%; }
-  .nad-cuerpo #bulb2-2-11 {
-    left: 56%;
-    top: 75%; }
-  .nad-cuerpo #bulb0-2-1 {
-    left: 62%;
-    top: 56%; }
-  .nad-cuerpo #bulb0-2-2 {
-    left: 60%;
-    top: 60%; }
-  .nad-cuerpo #bulb0-2-3 {
-    left: 60%;
-    top: 65%; }
-  .nad-cuerpo #bulb0-2-4 {
-    left: 60%;
-    top: 70%; }
-  .nad-cuerpo #bulb0-2-5 {
-    left: 64%;
-    top: 75%; }
-  .nad-cuerpo #bulb0-2-6 {
-    left: 66%;
-    top: 60%; }
-  .nad-cuerpo #bulb0-2-7 {
-    left: 66%;
-    top: 65%; }
-  .nad-cuerpo #bulb0-2-8 {
-    left: 66%;
-    top: 70%; }
-  .nad-cuerpo #bulb0-2-9 {
-    left: 62%;
-    top: 75%; }
-  .nad-cuerpo #bulb0-2-10 {
-    left: 64%;
-    top: 56%; }
-  .nad-cuerpo #bulb0-2-11 {
-    left: 63%;
-    top: 65%; }
-  .nad-cuerpo .nad-contSwitch {
-    width: 10em;
-    height: 4em;
-    background: #7d7d7d;
-    border-radius: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    border: 4px solid #5d5d5d; }
-    .nad-cuerpo .nad-contSwitch .nad-switchButton {
-      width: 3.5em;
-      height: 3.5em;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-      background: #fff;
-      border-radius: 50px;
-      margin-left: .2em;
-      margin-right: .2em; }
-    .nad-cuerpo .nad-contSwitch .nad-textOn,
-    .nad-cuerpo .nad-contSwitch .nad-textOff {
-      color: #fff;
-      text-align: center;
-      font-size: 1.5em;
-      width: 50%; }
-    .nad-cuerpo .nad-contSwitch #textOn {
-      display: block; }
-    .nad-cuerpo .nad-contSwitch #textOff {
-      display: none; }
-  .nad-cuerpo .nad-contSwitchImg {
-    cursor: pointer;
-    width: 13em;
-    height: 6em;
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-image: url("../img/SwitchOn.svg"); }
-    .nad-cuerpo .nad-contSwitchImg #aLesFosques,
-    .nad-cuerpo .nad-contSwitchImg #aLesClares {
-      width: 50%;
-      height: 100%; }
+  flex-direction: column;
+}
+.nad-cuerpo h1 {
+  color: #888;
+  text-align: center;
+  font-size: 9em;
+  margin-bottom: 0.6em;
+  padding: 0.3em;
+  position: relative;
+}
+.nad-cuerpo h1 #lletresDeLlum {
+  display: none;
+}
+.nad-cuerpo .nad-llums {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  border-radius: 50px;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(1px);
+  overflow: hidden;
+}
+.nad-cuerpo .nad-llums:nth-child(even) {
+  animation-name: flash1;
+  animation-iteration-count: infinite;
+  animation-duration: 0.8s;
+  background: #f8ba00;
+  box-shadow: 0 0 15px 3px #f8ba00;
+}
+.nad-cuerpo .nad-llums:nth-child(4n) {
+  animation-name: flash2;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  background: #04f800;
+  box-shadow: 0 0 15px 3px #04f800;
+}
+.nad-cuerpo .nad-llums:nth-child(odd) {
+  animation-name: flash1;
+  animation-iteration-count: infinite;
+  animation-duration: 1.2s;
+  background: #001eff;
+  box-shadow: 0 0 15px 3px #001eff;
+}
+.nad-cuerpo .nad-llums:nth-child(3n+1) {
+  animation-name: flash3;
+  animation-iteration-count: infinite;
+  animation-duration: 1.7s;
+  background: rgba(234, 76, 8, 0.867);
+  box-shadow: 0 0 15px 3px rgba(234, 76, 8, 0.867);
+}
+.nad-cuerpo .nad-llums .fonsBulb {
+  height: 15px;
+  width: 15px;
+  mix-blend-mode: luminosity;
+  background: radial-gradient(circle, #d4d4d4 15%, #8f8f8f 35%, black 100%);
+  bottom: 80%;
+}
+.nad-cuerpo #bulb1 {
+  left: 35%;
+  top: 60%;
+}
+.nad-cuerpo #bulb2 {
+  left: 20%;
+  top: 50%;
+}
+.nad-cuerpo #bulb3 {
+  left: 90%;
+  top: 44%;
+}
+.nad-cuerpo #bulbB1 {
+  left: 6%;
+  top: 20%;
+}
+.nad-cuerpo #bulbB1-2 {
+  left: 9%;
+  top: 20%;
+}
+.nad-cuerpo #bulbB2 {
+  left: 6%;
+  top: 28%;
+}
+.nad-cuerpo #bulbB3 {
+  left: 6%;
+  top: 36%;
+}
+.nad-cuerpo #bulbB3-2 {
+  left: 9%;
+  top: 36%;
+}
+.nad-cuerpo #bulbB4 {
+  left: 12%;
+  top: 24%;
+}
+.nad-cuerpo #bulbB5 {
+  left: 9%;
+  top: 28%;
+}
+.nad-cuerpo #bulbB6 {
+  left: 12%;
+  top: 32%;
+}
+.nad-cuerpo #bulbO1 {
+  left: 19%;
+  top: 26%;
+}
+.nad-cuerpo #bulbO2 {
+  left: 17%;
+  top: 31%;
+}
+.nad-cuerpo #bulbO3 {
+  left: 19%;
+  top: 36%;
+}
+.nad-cuerpo #bulbO4 {
+  left: 21%;
+  top: 31%;
+}
+.nad-cuerpo #bulbN1 {
+  left: 25%;
+  top: 26%;
+}
+.nad-cuerpo #bulbN2 {
+  left: 25%;
+  top: 31%;
+}
+.nad-cuerpo #bulbN3 {
+  left: 25%;
+  top: 36%;
+}
+.nad-cuerpo #bulbN4 {
+  left: 28%;
+  top: 26%;
+}
+.nad-cuerpo #bulbN5 {
+  left: 30%;
+  top: 31%;
+}
+.nad-cuerpo #bulbN6 {
+  left: 30%;
+  top: 36%;
+}
+.nad-cuerpo #bulbN-2-1 {
+  left: 44%;
+  top: 20%;
+}
+.nad-cuerpo #bulbN-2-2 {
+  left: 44%;
+  top: 28%;
+}
+.nad-cuerpo #bulbN-2-3 {
+  left: 44%;
+  top: 36%;
+}
+.nad-cuerpo #bulbN-2-4 {
+  left: 46%;
+  top: 24%;
+}
+.nad-cuerpo #bulbN-2-4b {
+  left: 48%;
+  top: 28%;
+}
+.nad-cuerpo #bulbN-2-5 {
+  left: 50%;
+  top: 32%;
+}
+.nad-cuerpo #bulbN-2-6 {
+  left: 52%;
+  top: 20%;
+}
+.nad-cuerpo #bulbN-2-7 {
+  left: 52%;
+  top: 28%;
+}
+.nad-cuerpo #bulbN-2-8 {
+  left: 52%;
+  top: 36%;
+}
+.nad-cuerpo #bulbA1 {
+  left: 56%;
+  top: 36%;
+}
+.nad-cuerpo #bulbA2 {
+  left: 62%;
+  top: 36%;
+}
+.nad-cuerpo #bulbA3 {
+  left: 57%;
+  top: 31%;
+}
+.nad-cuerpo #bulbA4 {
+  left: 61%;
+  top: 31%;
+}
+.nad-cuerpo #bulbA5 {
+  left: 59%;
+  top: 27%;
+}
+.nad-cuerpo #bulbA6 {
+  left: 62%;
+  top: 27%;
+}
+.nad-cuerpo #bulbA-2-1 {
+  left: 74%;
+  top: 36%;
+}
+.nad-cuerpo #bulbA-2-2 {
+  left: 80%;
+  top: 36%;
+}
+.nad-cuerpo #bulbA-2-3 {
+  left: 75%;
+  top: 31%;
+}
+.nad-cuerpo #bulbA-2-4 {
+  left: 79%;
+  top: 31%;
+}
+.nad-cuerpo #bulbA-2-5 {
+  left: 76%;
+  top: 24%;
+}
+.nad-cuerpo #bulbA-2-6 {
+  left: 77%;
+  top: 27%;
+}
+.nad-cuerpo #bulbD1 {
+  left: 67%;
+  top: 36%;
+}
+.nad-cuerpo #bulbD2 {
+  left: 70%;
+  top: 36%;
+}
+.nad-cuerpo #bulbD3 {
+  left: 66%;
+  top: 31%;
+}
+.nad-cuerpo #bulbD4 {
+  left: 70%;
+  top: 31%;
+}
+.nad-cuerpo #bulbD5 {
+  left: 67%;
+  top: 26%;
+}
+.nad-cuerpo #bulbD6 {
+  left: 70%;
+  top: 26%;
+}
+.nad-cuerpo #bulbD7 {
+  left: 70%;
+  top: 22%;
+}
+.nad-cuerpo #bulbD8 {
+  left: 70%;
+  top: 18%;
+}
+.nad-cuerpo #bulbL0 {
+  left: 84%;
+  top: 20%;
+}
+.nad-cuerpo #bulbL1 {
+  left: 86%;
+  top: 20%;
+}
+.nad-cuerpo #bulbL2 {
+  left: 86%;
+  top: 26%;
+}
+.nad-cuerpo #bulbL3 {
+  left: 86%;
+  top: 31%;
+}
+.nad-cuerpo #bulbL4 {
+  left: 86%;
+  top: 36%;
+}
+.nad-cuerpo #bulb2-1-1 {
+  left: 30%;
+  top: 58%;
+}
+.nad-cuerpo #bulb2-1-2 {
+  left: 32%;
+  top: 56%;
+}
+.nad-cuerpo #bulb2-1-3 {
+  left: 34%;
+  top: 56%;
+}
+.nad-cuerpo #bulb2-1-4 {
+  left: 36%;
+  top: 58%;
+}
+.nad-cuerpo #bulb2-1-5 {
+  left: 36%;
+  top: 63%;
+}
+.nad-cuerpo #bulb2-1-6 {
+  left: 34%;
+  top: 67%;
+}
+.nad-cuerpo #bulb2-1-7 {
+  left: 32%;
+  top: 70%;
+}
+.nad-cuerpo #bulb2-1-8 {
+  left: 30%;
+  top: 75%;
+}
+.nad-cuerpo #bulb2-1-9 {
+  left: 32%;
+  top: 75%;
+}
+.nad-cuerpo #bulb2-1-10 {
+  left: 34%;
+  top: 75%;
+}
+.nad-cuerpo #bulb2-1-11 {
+  left: 36%;
+  top: 75%;
+}
+.nad-cuerpo #bulb0-1-1 {
+  left: 42%;
+  top: 56%;
+}
+.nad-cuerpo #bulb0-1-2 {
+  left: 40%;
+  top: 60%;
+}
+.nad-cuerpo #bulb0-1-3 {
+  left: 40%;
+  top: 65%;
+}
+.nad-cuerpo #bulb0-1-4 {
+  left: 40%;
+  top: 70%;
+}
+.nad-cuerpo #bulb0-1-5 {
+  left: 44%;
+  top: 75%;
+}
+.nad-cuerpo #bulb0-1-6 {
+  left: 46%;
+  top: 60%;
+}
+.nad-cuerpo #bulb0-1-7 {
+  left: 46%;
+  top: 65%;
+}
+.nad-cuerpo #bulb0-1-8 {
+  left: 46%;
+  top: 70%;
+}
+.nad-cuerpo #bulb0-1-9 {
+  left: 42%;
+  top: 75%;
+}
+.nad-cuerpo #bulb0-1-10 {
+  left: 44%;
+  top: 56%;
+}
+.nad-cuerpo #bulb0-1-11 {
+  left: 43%;
+  top: 65%;
+}
+.nad-cuerpo #bulb2-2-1 {
+  left: 50%;
+  top: 58%;
+}
+.nad-cuerpo #bulb2-2-2 {
+  left: 52%;
+  top: 56%;
+}
+.nad-cuerpo #bulb2-2-3 {
+  left: 54%;
+  top: 56%;
+}
+.nad-cuerpo #bulb2-2-4 {
+  left: 56%;
+  top: 58%;
+}
+.nad-cuerpo #bulb2-2-5 {
+  left: 56%;
+  top: 63%;
+}
+.nad-cuerpo #bulb2-2-6 {
+  left: 54%;
+  top: 67%;
+}
+.nad-cuerpo #bulb2-2-7 {
+  left: 52%;
+  top: 70%;
+}
+.nad-cuerpo #bulb2-2-8 {
+  left: 50%;
+  top: 75%;
+}
+.nad-cuerpo #bulb2-2-9 {
+  left: 52%;
+  top: 75%;
+}
+.nad-cuerpo #bulb2-2-10 {
+  left: 54%;
+  top: 75%;
+}
+.nad-cuerpo #bulb2-2-11 {
+  left: 56%;
+  top: 75%;
+}
+.nad-cuerpo #bulb0-2-1 {
+  left: 62%;
+  top: 56%;
+}
+.nad-cuerpo #bulb0-2-2 {
+  left: 60%;
+  top: 60%;
+}
+.nad-cuerpo #bulb0-2-3 {
+  left: 60%;
+  top: 65%;
+}
+.nad-cuerpo #bulb0-2-4 {
+  left: 60%;
+  top: 70%;
+}
+.nad-cuerpo #bulb0-2-5 {
+  left: 64%;
+  top: 75%;
+}
+.nad-cuerpo #bulb0-2-6 {
+  left: 66%;
+  top: 60%;
+}
+.nad-cuerpo #bulb0-2-7 {
+  left: 66%;
+  top: 65%;
+}
+.nad-cuerpo #bulb0-2-8 {
+  left: 66%;
+  top: 70%;
+}
+.nad-cuerpo #bulb0-2-9 {
+  left: 62%;
+  top: 75%;
+}
+.nad-cuerpo #bulb0-2-10 {
+  left: 64%;
+  top: 56%;
+}
+.nad-cuerpo #bulb0-2-11 {
+  left: 63%;
+  top: 65%;
+}
+.nad-cuerpo .nad-contSwitch {
+  width: 10em;
+  height: 4em;
+  background: #7d7d7d;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 4px solid #5d5d5d;
+}
+.nad-cuerpo .nad-contSwitchImg {
+  cursor: pointer;
+  width: 14em;
+  height: 8em;
+  position: relative;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  background-image: url("../img/SwitchOn.svg");
+}
+.nad-cuerpo .nad-contSwitchImg #aLesFosques,
+.nad-cuerpo .nad-contSwitchImg #aLesClares {
+  width: 50%;
+  height: 100%;
+}

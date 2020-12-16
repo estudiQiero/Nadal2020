@@ -2,6 +2,7 @@
 @mixin llums($esq, $dre) {
     left: $esq;
     top: $dre;
+
     // background: $color;
 }
 
@@ -9,7 +10,9 @@
 @mixin animacio($nomFlash, $durada, $color, $color2) {
     animation-name: $nomFlash;
     animation-iteration-count: infinite;
-    animation-duration: $durada; // 1s, .9s, .8s, .7s, etc.
+    animation-duration: $durada;
+
+    // 1s, .9s, .8s, .7s, etc.
     background: $color;
-    box-shadow: 0 0 20px 2px $color2;
+    box-shadow: 0 0 15px 3px $color2;
 }
