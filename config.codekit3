@@ -17,6 +17,19 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
+	"/img/SwitchOff.png": {
+		"ft": 32768,
+		"iS": 8867,
+		"oA": 0,
+		"oAP": "/img/SwitchOff.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/SwitchOff.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -36,6 +49,19 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/SwitchOn.png": {
+		"ft": 32768,
+		"iS": 5128,
+		"oA": 0,
+		"oAP": "/img/SwitchOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/switchOn.svg": {
 		"ft": 2097152,

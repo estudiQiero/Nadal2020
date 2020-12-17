@@ -522,12 +522,12 @@
     .nad-contSwitchImg {
         cursor: pointer;
         width: 10em;
-        height: 8em;
+        height: 6em;
         position: relative;
         display: flex;
         background-repeat: no-repeat;
         background-position: center center;
-        background-size: auto;
+        background-size: cover;
         background-image: url('../img/SwitchOn.svg');
 
         // SwitchOff
@@ -554,14 +554,14 @@
 
     .nad-contSwitchImg {
         cursor: pointer;
-        width: 10em;
-        height: 6em;
+        max-width: 10em;
+        max-height: 6em;
         position: relative;
         display: flex;
         background-repeat: no-repeat;
         background-position: center center;
         background-size: auto;
-        background-image: url('../img/SwitchOn.svg');
+        background-image: url('../img/SwitchOn.png');
 
         // SwitchOff
         #aLesFosques,
