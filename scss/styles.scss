@@ -20,14 +20,17 @@
     font-family: 'Anonymous Pro', monospace;
     font-weight: 700;
     flex-direction: column;
+    padding: 1em;
+    min-width: 360px;
 
     h1 {
         color: #888;
         text-align: center;
         font-size: 9em;
         margin-bottom: .6em;
-        padding: .3em;
         position: relative;
+        max-width: 800px;
+        padding: 3rem;
 
         #lletresDeLlum {
             display: none;
@@ -518,8 +521,41 @@
 
     .nad-contSwitchImg {
         cursor: pointer;
-        width: 14em;
+        width: 10em;
         height: 8em;
+        position: relative;
+        display: flex;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: auto;
+        background-image: url('../img/SwitchOn.svg');
+
+        // SwitchOff
+        #aLesFosques,
+        #aLesClares {
+            width: 50%;
+            height: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 803px) {
+    .nad-llums {
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+        -webkit-filter: blur(2px);
+        -moz-filter: blur(2px);
+        -o-filter: blur(2px);
+        -ms-filter: blur(2px);
+        filter: blur(1px);
+        overflow: hidden;
+    }
+
+    .nad-contSwitchImg {
+        cursor: pointer;
+        width: 10em;
+        height: 6em;
         position: relative;
         display: flex;
         background-repeat: no-repeat;
