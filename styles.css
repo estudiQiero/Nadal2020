@@ -514,7 +514,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url("../img/SwitchOn.png");
+  background-image: url("img/SwitchOn.png");
 }
 .nad-cuerpo .nad-contSwitchImg #aLesFosques,
 .nad-cuerpo .nad-contSwitchImg #aLesClares {
