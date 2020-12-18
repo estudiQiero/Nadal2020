@@ -11,6 +11,130 @@
   margin: 0;
   padding: 0; }
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 @-webkit-keyframes flash1 {
   0%, 100% {
     opacity: 1; }
@@ -48,8 +172,7 @@
     opacity: .5; } }
 
 .nad-cuerpo {
-  background-color: #fff;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,33 +183,44 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: 'Anonymous Pro', monospace;
-  font-weight: 700;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 1em;
-  min-width: 360px; }
+          flex-direction: column; }
   .nad-cuerpo h1 {
     color: #888;
     text-align: center;
     font-size: 9em;
     margin-bottom: .6em;
     position: relative;
-    max-width: 800px;
-    padding: 3rem; }
+    padding: 1rem;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 400;
+    height: 400px; }
     .nad-cuerpo h1 #lletresDeLlum {
       display: none; }
+  @media only screen and (max-width: 680px) {
+    .nad-cuerpo h1 {
+      font-size: 6em;
+      height: 300px !important; }
+    .nad-cuerpo .nad-llums {
+      width: 10px !important;
+      height: 10px !important; }
+    .nad-cuerpo .fonsBulb {
+      width: 10px !important;
+      height: 10px !important; } }
+  @media only screen and (max-width: 440px) {
+    .nad-cuerpo h1 {
+      font-size: 4em; } }
   .nad-cuerpo .nad-llums {
     width: 15px;
     height: 15px;
     position: absolute;
     border-radius: 50px;
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
     filter: blur(1px);
     overflow: hidden; }
     .nad-cuerpo .nad-llums:nth-child(even) {
@@ -466,7 +600,7 @@
       width: 50%;
       height: 100%; }
 
-@media screen and (max-width: 803px) {
+@media only screen and (max-width: 680px) {
   .nad-llums {
     width: 15px;
     height: 15px;
@@ -477,6 +611,9 @@
     -ms-filter: blur(2px);
     filter: blur(1px);
     overflow: hidden; }
+  h1 {
+    color: red;
+    font-size: 6em; }
   .nad-contSwitchImg {
     cursor: pointer;
     max-width: 10em;
